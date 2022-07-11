@@ -26,8 +26,9 @@ textarea {
 }
 
 .time-block {
-  text-align: center;
-  border-radius: 15px;
+  text-align: left;
+  border-radius: 1px 1px 1px 1px;
+  width: 75%;
 }
 
 .row {
@@ -40,6 +41,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width: 100px;
+  padding: 10px;
 }
 
 .past {
@@ -59,13 +62,24 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   background-color: #06aed5;
   color: white;
+  width: 8%;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.dayNote {
+  padding-left: 20px;
+  color: black;
+}
+
+.noticeDisplay {
+  text-align: center;
+  color: red;
 }
